@@ -2,7 +2,7 @@ import React from 'react'
 import styled from "styled-components";
 
 const Style = styled.div`
-    h1 {
+    h2 {
         text-align: center;
         margin-top: 3em;
         color: white;
@@ -14,9 +14,9 @@ const Style = styled.div`
 function Header() {
     return (
         <Style>
-            <h1>
+                <h2>
                 WELCOME TO MY PORTFOLIO
-            </h1>
+                </h2>
         </Style>
     )
 }
