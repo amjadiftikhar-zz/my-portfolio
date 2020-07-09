@@ -5,7 +5,8 @@ import workExperienceIcon from "../images/workExperienceIcon.png";
 
 const Style = styled.div`
     h3 {
-        margin-top: 2em;        
+        margin-top: 10%;
+        margin-bottom: 7%;        
         border-bottom: 3px solid darkgreen;
         background-color: white;
         padding: 0.7em;
@@ -18,7 +19,6 @@ const Style = styled.div`
         border-radius: 50%;
     }
     h4 {
-        margin-top: 3em;
         background-color: white;
         padding: 0.6em;
         color: darkgreen;
@@ -40,6 +40,21 @@ function Experience() {
         <Container>
         <Style>
             <h3><img src={workExperienceIcon} alt=""/>Work Experience</h3>
+            <h4>Student Volunteer</h4>
+            <div className="experienceSection">
+                <div className="experienceContents">
+                    <p>Organization</p>
+                    <h5>Hack Your Future Copenhagen</h5>
+                    <p>08/2019 – 04/2020</p>                    
+                </div>
+                <div className="experienceContents">
+                    <div>
+                        <p>
+                            Copenhagen, Denmark
+                        </p>
+                    </div>
+                </div>  
+            </div>
             <h4>Cab Rider</h4>
             <div className="experienceSection">
                 <div className="experienceContents">

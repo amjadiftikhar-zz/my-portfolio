@@ -29,7 +29,7 @@ const Style = styled.div`
     border-radius: 50%;
     margin-top: 5%;
     margin-bottom: 13%;
-    color: #ff6600;
+    color: white;
     font-weight: bold;
   }
   .classTooltip {

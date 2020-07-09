@@ -14,7 +14,7 @@ const Style = styled.div`
   }
   p {
     font-family: sans-serif;
-    color: darkgreen;
+    color: white;
     font-size: 17px;
   }
 `;

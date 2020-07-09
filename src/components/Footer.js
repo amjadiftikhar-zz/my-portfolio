@@ -19,8 +19,9 @@ const Style = styled.div`
     .allRights{
         display: flex;
         flex-direction: column;
-        color: white;
-        font-family: sans-serif;        
+        color: gray;
+        font-family: sans-serif;
+        margin-left: 50%;        
     }
 `;
 

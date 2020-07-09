@@ -6,32 +6,32 @@ const HeaderStyle = styled.div`
       text-align: center;
       color: white;
     }
-    h2 {
-        font-weight:bolder;
-        text-shadow: 12px 12px 1px green;
+    h3 {
+        margin-top: 7%;
     }    
     .btn-projectView {
-        padding: 1.2em;
-        background-color: #024b30;
+        padding: 1em;
+        background-color: lightgray;
         border-radius: .7em;
-        color: white;
+        color: black;
         margin-top: 2em; 
         text-decoration: none;
-        box-shadow: 3px 4px #ffff4d;
     }
     .btn-projectView:hover {
         background-color: lightgreen;
-        transform: scale(1.5);
+        transform: scale(1.3);
       }
     .skillSection {
         margin-top: 6%;
         margin-bottom: 15%;
+        margin: 2%;
     }
     .skillsList {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        margin-top: 5%;
+        margin-top: 2%;
+        margin-bottom 10%;
         background-color: white;
         padding: 2.5em;
     }
@@ -41,7 +41,7 @@ const HeaderStyle = styled.div`
         color: white;
         align-content: center;
         font-weight: bolder;
-        border-bottom: 1em solid #ffff4d;
+        border-bottom: 1.3em solid lightgray;
         border-radius: 50%;
     }
     span {
@@ -56,7 +56,7 @@ function Welcome() {
                 Click to overview Projects
             </a>
             <div className="skillSection">
-                <h2>Top Skills</h2>
+                <h3>Top Skills</h3>
                 <div className="skillsList">
                     <span className="sectionElement">Javascript</span>
                     <span className="sectionElement">Node JS</span>

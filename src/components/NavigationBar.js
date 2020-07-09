@@ -6,7 +6,7 @@ import homeIcon from "../images/homeIcon.png";
 const NavigationStyles = styled.div`
   .navbar {
     background-color: #024b30;
-    padding:2em;
+    padding: 2em;
   }
   .navbar-brand, .navbar-nav .nav-link, .toggle {
     color: white;

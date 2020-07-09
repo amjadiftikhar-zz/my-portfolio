@@ -28,7 +28,7 @@ const Style = styled.div`
     background-color: white;
     padding: 0.5em;
     color: #024b30;
-    border-bottom: 1px solid darkgreen;
+    border-bottom: 2px solid darkgreen;
     font-size: 1.2rem;
   }
   .project-section {
@@ -50,7 +50,7 @@ const Style = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-bottom: 2px solid darkgreen;
+    border-bottom: 2px solid white;
     margin-bottom: 10%;
   }
   .iconSection {
@@ -77,7 +77,7 @@ const Style = styled.div`
     padding: 0.3em;
     position: absolute;
     font-size: 15px;
-    color: darkgreen;
+    color: white;
   }
   .classSpan {
     margin-right: 20%;
@@ -142,7 +142,7 @@ export default function Projects() {
               <div class="flipBox-back">
                 <h5>Tech stack</h5>
                 <ul>
-                  <li>Javascrip</li>
+                  <li>Javascript</li>
                   <li>Node JS</li>
                   <li>React</li>
                   <li>HTML</li>
@@ -169,7 +169,7 @@ export default function Projects() {
             <span className="classSpan">
               <a className="toolTip" href="https://my-meal-sharing-app.herokuapp.com/">
                 <img className="classIcon toolTip" src={externalLinkIcon} alt=""/>
-                <span className="classTooltip">Project Link</span> 
+                <span className="classTooltip">Click to preview</span> 
               </a>
             </span>
             <span className="classSpan">
@@ -190,7 +190,7 @@ export default function Projects() {
               <div class="flipBox-back">
                 <h5>Tech stack</h5>
                 <ul>
-                  <li>Javascrip</li>
+                  <li>Javascript</li>
                   <li>Node JS</li>
                   <li>HTML</li>
                   <li>CSS</li>
@@ -213,7 +213,7 @@ export default function Projects() {
             <span className="classSpan">
                 <a className="toolTip" href="https://my-meal-sharing-app.herokuapp.com/">
                   <img className="classIcon toolTip" src={externalLinkIcon} alt=""/>
-                  <span className="classTooltip">Project Link</span>
+                  <span className="classTooltip">Click to preview</span>
                 </a>
             </span>
             <span className="classSpan">
@@ -234,7 +234,7 @@ export default function Projects() {
               <div class="flipBox-back">
                 <h5>Tech stack</h5>
                 <ul>
-                  <li>Javascrip</li>
+                  <li>Javascript</li>
                   <li>HTML</li>
                   <li>CSS</li>
                   <li>Github</li>
@@ -254,7 +254,7 @@ export default function Projects() {
             <span className="classSpan">
                 <a className="toolTip" href="https://htmlpreview.github.io/?https://github.com/amjadiftikhar/my_SPAs/blob/master/weather-App/index.html">
                   <img className="classIcon toolTip" src={externalLinkIcon} alt=""/>
-                  <span className="classTooltip">Project Link</span>
+                  <span className="classTooltip">Click to preview</span>
                 </a>
             </span>
             <span className="classSpan">
@@ -275,7 +275,7 @@ export default function Projects() {
               <div class="flipBox-back">
                 <h5>Tech stack</h5>
                 <ul>
-                  <li>Javascrip</li>
+                  <li>Javascript</li>
                   <li>HTML</li>
                   <li>CSS</li>
                   <li>Github</li>
@@ -295,7 +295,7 @@ export default function Projects() {
             <span className="classSpan">
               <a className="toolTip" href="https://github.com/amjadiftikhar/searchUsers_github">
                 <img className="classIcon toolTip" src={externalLinkIcon} alt=""/>
-                <span className="classTooltip">Project Link</span>
+                <span className="classTooltip">Click to preview</span>
               </a>
             </span>
             <span className="classSpan">
@@ -316,7 +316,7 @@ export default function Projects() {
               <div class="flipBox-back">
                 <h5>Tech stack</h5>
                 <ul>
-                  <li>Javascrip</li>
+                  <li>Javascript</li>
                   <li>HTML</li>
                   <li>CSS</li>
                   <li>Github</li>
@@ -336,7 +336,7 @@ export default function Projects() {
             <span className="classSpan">
               <a className="toolTip" href="https://htmlpreview.github.io/?https://github.com/amjadiftikhar/my_SPAs/blob/master/giphy-App/index.html">
                 <img className="classIcon toolTip" src={externalLinkIcon} alt=""/>
-                <span className="classTooltip">Project Link</span>
+                <span className="classTooltip">Click to preview</span>
               </a>
             </span>
             <span className="classSpan">

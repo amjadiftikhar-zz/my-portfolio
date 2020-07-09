@@ -7,7 +7,7 @@ import linkedinIcon from "../images/linkedin.png";
 
 const ImageStyle = styled.div`
     .profilePic {
-      margin-top: -7em;
+      margin-top: -5em;
       margin-bottom:2em;
       border: 1.5px solid green;
       width: 60%;
@@ -21,11 +21,13 @@ const ImageStyle = styled.div`
     }
     h5 {
         margin-top: 0.7em;
-        color: darkgreen;
+        color: white;
     }
     .classContact {
         display: flex;
         flex-wrap: wrap;
+        padding: 3%;
+        border-bottom: 2px solid white;
     }
     img {
         width:2em;

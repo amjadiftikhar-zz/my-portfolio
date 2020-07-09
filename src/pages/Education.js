@@ -6,14 +6,14 @@ import certificateIcon from "../images/certificateIcon.png";
 
 const Style = styled.div`
     h3 {
-        margin-top: 2em;
+        margin-top: 10%;
+        margin-bottom: 7%;
         border-bottom: 3px solid darkgreen;
         background-color: white;
         padding: 0.7em;
         color: #024b30;
     }
     h4 {
-        margin-top: 4em;
         background-color: white;
         padding: 0.7em;
         color: #024b30;
@@ -41,6 +41,20 @@ function Education() {
         <Style>
         <Container>
             <h3><img src={educationIcon} alt=""/>Education</h3>
+            <h4>Full Stack Web Development</h4>
+            <div className="educationSection">
+                <div className="educationContents">
+                    <p>Institute</p>
+                    <h5>Hack Your Future Copenhagen</h5>
+                    <p>Acquired skills are, HTML/CSS, JavaScript, Node JS, MySql og React</p>
+                    <p>08/2019 – 04/2020</p>                    
+                </div>
+                <div className="educationContents">
+                    <div>
+                        <p>Copenhagen, Denmark</p>                        
+                    </div>
+                </div>  
+            </div>
             <h4>Masters in Computer Systems Engineering</h4>
             <div className="educationSection">
                 <div className="educationContents">
@@ -67,21 +81,7 @@ function Education() {
                     </div>
                 </div>  
             </div>
-            <h3><img src={certificateIcon} alt=""/>Certifications</h3>
-            <h4>Full Stack Web Development Program</h4>
-            <div className="educationSection">
-                <div className="educationContents">
-                    <p>Institute</p>
-                    <h5>Hack Your Future</h5>
-                    <p>Acquired skills are, HTML/CSS, JavaScript, Node JS, MySql og React</p>
-                    <p>08/2019 – 04/2020</p>                    
-                </div>
-                <div className="educationContents">
-                    <div>
-                        <p>Copenhagen, Denmark</p>                        
-                    </div>
-                </div>  
-            </div>
+            <h3><img src={certificateIcon} alt=""/>Certifications</h3>            
             <h4>Microsoft Certified Professional, MCP ID: 8074395</h4>
             <div className="educationSection">
                 <div className="educationContents">
