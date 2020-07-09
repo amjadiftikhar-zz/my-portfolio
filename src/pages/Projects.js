@@ -276,6 +276,7 @@ export default function Projects() {
                 <h5>Tech stack</h5>
                 <ul>
                   <li>Javascript</li>
+                  <li>React</li>
                   <li>HTML</li>
                   <li>CSS</li>
                   <li>Github</li>
