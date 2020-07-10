@@ -161,19 +161,19 @@ export default function Projects() {
           </div>
           <div className="iconSection">
             <span className="classSpan">
-              <a className="toolTip" href="https://github.com/cecastosic/FP-class11">
+              <a className="toolTip" href="https://fp-class11.herokuapp.com/">
                 <img className="classIcon toolTip" src={githubIcon} alt=""/>
                 <span className="classTooltip">Github</span>
               </a> 
             </span>
             <span className="classSpan">
-              <a className="toolTip" href="https://my-meal-sharing-app.herokuapp.com/">
+              <a className="toolTip" href="https://fp-class11.herokuapp.com/">
                 <img className="classIcon toolTip" src={externalLinkIcon} alt=""/>
                 <span className="classTooltip">Click to preview</span> 
               </a>
             </span>
             <span className="classSpan">
-              <a className="toolTip" href="https://my-meal-sharing-app.herokuapp.com/">
+              <a className="toolTip" href="https://fp-class11.herokuapp.com/">
                 <img className="classIcon toolTip" src={descriptionIcon} alt=""/>
                 <span className="classTooltip">Project Description</span> 
               </a>
