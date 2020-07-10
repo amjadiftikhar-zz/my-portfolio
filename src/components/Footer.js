@@ -11,8 +11,8 @@ const Style = styled.div`
         align-items: center;
     }
     img {
-        height: 3em;
-        width: 3em;
+        height: 2em;
+        width: 2em;
         background-color: white;
         border-radius: 50%;
     }

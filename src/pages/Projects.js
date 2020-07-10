@@ -161,7 +161,7 @@ export default function Projects() {
           </div>
           <div className="iconSection">
             <span className="classSpan">
-              <a className="toolTip" href="https://fp-class11.herokuapp.com/">
+              <a className="toolTip" href="https://github.com/HackYourFuture-CPH/FP-class11">
                 <img className="classIcon toolTip" src={githubIcon} alt=""/>
                 <span className="classTooltip">Github</span>
               </a> 

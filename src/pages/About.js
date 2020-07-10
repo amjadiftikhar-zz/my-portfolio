@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const Style = styled.div`
   {    
-    margin-bottom: 13%;
+    margin-bottom: 100%;
   }
   h3 {
     margin-top: 5%;

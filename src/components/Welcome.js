@@ -6,8 +6,8 @@ const HeaderStyle = styled.div`
       text-align: center;
       color: white;
     }
-    h3 {
-        margin-top: 7%;
+    h2 {
+        font-size: 3vw;
     }    
     .btn-projectView {
         padding: 1em;
@@ -15,15 +15,14 @@ const HeaderStyle = styled.div`
         border-radius: .7em;
         color: black;
         margin-top: 2em; 
-        text-decoration: none;
+        text-decoration: none;        
+        margin-bottom: 10%;
     }
     .btn-projectView:hover {
         background-color: lightgreen;
         transform: scale(1.3);
       }
     .skillSection {
-        margin-top: 6%;
-        margin-bottom: 15%;
         margin: 2%;
     }
     .skillsList {
@@ -52,11 +51,8 @@ const HeaderStyle = styled.div`
 function Welcome() {
     return (
         <HeaderStyle>
-            <a className="btn-projectView" type="button" href="/projects">
-                Click to overview Projects
-            </a>
             <div className="skillSection">
-                <h3>Top Skills</h3>
+                <h2>Top Skills</h2>
                 <div className="skillsList">
                     <span className="sectionElement">Javascript</span>
                     <span className="sectionElement">Node JS</span>
@@ -67,7 +63,10 @@ function Welcome() {
                     <span className="sectionElement">Express</span>
                     <span className="sectionElement">Github</span>  
                 </div>                  
-            </div>                    
+            </div> 
+            <a className="btn-projectView" type="button" href="/projects">
+                Click to overview Projects
+            </a>                   
         </HeaderStyle>
     )
 }
