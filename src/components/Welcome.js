@@ -6,8 +6,8 @@ const HeaderStyle = styled.div`
       text-align: center;
       color: white;
     }
-    h2 {
-        font-size: 3vw;
+    h3 {
+        font-size: 2.5vw;
     }    
     .btn-projectView {
         padding: 1em;
@@ -52,7 +52,7 @@ function Welcome() {
     return (
         <HeaderStyle>
             <div className="skillSection">
-                <h2>Top Skills</h2>
+                <h3>Top Skills</h3>
                 <div className="skillsList">
                     <span className="sectionElement">Javascript</span>
                     <span className="sectionElement">Node JS</span>

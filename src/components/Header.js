@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Style = styled.div`
     h1 {
-        font-size: 4vw;
+        font-size: 3vw;
         text-align: center;
         margin-top: 5%;
         color: white;

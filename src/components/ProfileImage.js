@@ -8,9 +8,9 @@ import linkedinIcon from "../images/linkedin.png";
 const ImageStyle = styled.div`
     .profilePic {
       margin-top: -2em;
-      border: 1.5px solid green;
-      width: 55%;
-      height: 55%;     
+      border: 1px solid green;
+      width: 50%;
+      height: 50%;     
     }
     .leftSection {
         display: flex;
