@@ -7,10 +7,9 @@ import linkedinIcon from "../images/linkedin.png";
 
 const ImageStyle = styled.div`
     .profilePic {
-      margin-top: -2em;
       border: 1px solid green;
       width: 50%;
-      height: 50%;     
+      height: auto;     
     }
     .leftSection {
         display: flex;
@@ -30,13 +29,13 @@ const ImageStyle = styled.div`
         border-bottom: 2px solid white;
     }
     img {
-        width:2em;
+        width: 2em;
         height: 2em;
         border-radius: 50%;
     }
     .classContact a {
        margin-left:20%;
-      margin-right:20%;
+       margin-right:20%;
     }
 `;
 

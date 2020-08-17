@@ -25,7 +25,7 @@ export default function About() {
     <Container>
       <h3>About me!</h3>
       <p>
-        <br/>I am a curious and driven Backend Developer with focus on web development. I have worked with several diﬀerent tech stacks and particularly excels in JavaScript, React, Node JS, HTML, CSS and MySql. I have been contributing to open source projects to learn new development techniques and deepen my knowledge in Full-stack domain. I am looking to discover new ﬁelds in the domain of tech and development by joining a progressive, fast paced team.
+        <br/>I am a curious and driven Full stack Developer with focus on web development. I have worked with several diﬀerent tech stacks and particularly excels in JavaScript, React, Node JS, HTML, CSS and MySql. I have been contributing to open source projects to learn new development techniques and deepen my knowledge in Full-stack domain. I am looking to discover new ﬁelds in the domain of tech and development by joining a progressive, fast paced team.
       </p>      
     </Container>
     </Style>
