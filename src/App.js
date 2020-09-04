@@ -3,15 +3,15 @@ import './App.css';
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import GlobalStyles from "./styles/global";
 
-import NavigationBar from "./components/NavigationBar";
-import Layout from "./components/Layout";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
-import Education from "./pages/Education";
-import Experience from "./pages/Experience";
-import Contact from "./pages/Contact";
-import Footer from "./components/Footer";
+import NavigationBar from "./components/navigation.components/NavigationBar";
+import Layout from "./components/layout.components/Layout";
+import Home from "././pages/home.pages/Home";
+import About from "././pages/about.pages/About";
+import Projects from "./pages/projects.pages/Projects";
+import Education from "././pages/education.pages/Education";
+import Experience from "././pages/experience.pages/Experience";
+import Contact from "././pages/contact.pages/Contact";
+import Footer from "./components/footer.components/Footer";
 
 export default function App() {
   return (

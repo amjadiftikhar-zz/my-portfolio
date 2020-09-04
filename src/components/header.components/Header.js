@@ -8,7 +8,6 @@ const Style = styled.div`
         margin-top: 5%;
         color: white;
         font-weight: bold;
-        // text-shadow: 15px 15px 1px green;
     }
 `;
 

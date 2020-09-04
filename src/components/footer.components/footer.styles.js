@@ -1,6 +1,4 @@
-import React from 'react';
 import styled from "styled-components";
-import copyright from "../images/copyright.png";
 
 const Style = styled.div`
     footer {
@@ -25,17 +23,4 @@ const Style = styled.div`
     }
 `;
 
-function Footer() {
-    return (
-        <Style>
-        <footer>
-            <div className="allRights">
-                <img src={copyright} alt=""/>
-                <span>All right reserved</span>
-            </div>                
-        </footer>
-        </Style>
-    )
-}
-
-export default Footer;
+export default Style;
