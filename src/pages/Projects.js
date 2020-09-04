@@ -10,6 +10,7 @@ import seasonyApp from "../images/seasonyApp.jpg";
 import projectsIcon from "../images/projectsIcon.png";
 import externalLinkIcon from "../images/externalLinkIcon.png";
 import descriptionIcon from "../images/descriptionIcon.png";
+import portfolio2020Image from "../images/portfolio2020.png";
 
 const Style = styled.div`
   h2 {
@@ -348,6 +349,47 @@ export default function Projects() {
             </span>
           </div> 
         </div>
+        <div className="project-content">
+          <h5>Portfolio 2020</h5>
+          <div class="flipBox">
+            <div class="flipBox-inner">
+              <div class="flipBox-front">
+                <img className="projectImage" src={portfolio2020Image} alt=""/>
+              </div>
+              <div class="flipBox-back">
+                <h5>Tech stack</h5>
+                <ul>
+                  <li>Javascript</li>
+                  <li>React</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Github</li>
+                  <li>Git</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="iconSection">
+            <span className="classSpan">
+              <a className="toolTip" href="https://github.com/amjadiftikhar/portfolio2020">
+                <img className="classIcon toolTip" src={githubIcon} alt=""/>
+                <span className="classTooltip">Github</span>
+              </a> 
+            </span>
+            <span className="classSpan">
+              <a className="toolTip" href="https://github.com/amjadiftikhar/portfolio2020">
+                <img className="classIcon toolTip" src={externalLinkIcon} alt=""/>
+                <span className="classTooltip">Click to preview</span> 
+              </a>
+            </span>
+            <span className="classSpan">
+              <a className="toolTip" href="">
+                <img className="classIcon toolTip" src={descriptionIcon} alt=""/>
+                <span className="classTooltip">Project Description</span> 
+              </a>
+            </span>
+          </div>
+          </div>
       </div>      
     </Container>
     </Style>    
