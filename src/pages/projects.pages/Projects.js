@@ -55,13 +55,13 @@ export default function Projects() {
             <span className="classSpan">
               <a className="toolTip" href="https://fp-class11.herokuapp.com/">
                 <img className="classIcon toolTip" src={externalLinkIcon} alt=""/>
-                <span className="classTooltip">Click to preview</span> 
+                <span className="classTooltip">Preview</span> 
               </a>
             </span>
             <span className="classSpan">
               <a className="toolTip" href="https://fp-class11.herokuapp.com/">
                 <img className="classIcon toolTip" src={descriptionIcon} alt=""/>
-                <span className="classTooltip">Project Description</span> 
+                <span className="classTooltip">Description</span> 
               </a>
             </span>
           </div>
@@ -99,13 +99,13 @@ export default function Projects() {
             <span className="classSpan">
                 <a className="toolTip" href="https://my-meal-sharing-app.herokuapp.com/">
                   <img className="classIcon toolTip" src={externalLinkIcon} alt=""/>
-                  <span className="classTooltip">Click to preview</span>
+                  <span className="classTooltip">Preview</span>
                 </a>
             </span>
             <span className="classSpan">
                 <a className="toolTip" href="https://my-meal-sharing-app.herokuapp.com/">
                   <img className="classIcon toolTip" src={descriptionIcon} alt=""/>
-                  <span className="classTooltip">Project Description</span>
+                  <span className="classTooltip">Description</span>
                 </a>
             </span>
           </div> 
@@ -140,13 +140,13 @@ export default function Projects() {
             <span className="classSpan">
                 <a className="toolTip" href="https://htmlpreview.github.io/?https://github.com/amjadiftikhar/my_SPAs/blob/master/weather-App/index.html">
                   <img className="classIcon toolTip" src={externalLinkIcon} alt=""/>
-                  <span className="classTooltip">Click to preview</span>
+                  <span className="classTooltip">Preview</span>
                 </a>
             </span>
             <span className="classSpan">
                 <a className="toolTip" href="https://my-meal-sharing-app.herokuapp.com/">
                   <img className="classIcon toolTip" src={descriptionIcon} alt=""/>
-                  <span className="classTooltip">Project Description</span>
+                  <span className="classTooltip">Description</span>
                 </a>
             </span>
           </div> 
@@ -182,13 +182,13 @@ export default function Projects() {
             <span className="classSpan">
               <a className="toolTip" href="https://github.com/amjadiftikhar/searchUsers_github">
                 <img className="classIcon toolTip" src={externalLinkIcon} alt=""/>
-                <span className="classTooltip">Click to preview</span>
+                <span className="classTooltip">Preview</span>
               </a>
             </span>
             <span className="classSpan">
               <a className="toolTip" href="https://my-meal-sharing-app.herokuapp.com/">
                 <img className="classIcon toolTip" src={descriptionIcon} alt=""/>
-                <span className="classTooltip">Project Description</span>
+                <span className="classTooltip">Description</span>
               </a>
             </span>
           </div> 
@@ -223,13 +223,13 @@ export default function Projects() {
             <span className="classSpan">
               <a className="toolTip" href="https://htmlpreview.github.io/?https://github.com/amjadiftikhar/my_SPAs/blob/master/giphy-App/index.html">
                 <img className="classIcon toolTip" src={externalLinkIcon} alt=""/>
-                <span className="classTooltip">Click to preview</span>
+                <span className="classTooltip">Preview</span>
               </a>
             </span>
             <span className="classSpan">
               <a className="toolTip" href="https://my-meal-sharing-app.herokuapp.com/">
                 <img className="classIcon toolTip" src={descriptionIcon} alt=""/>
-                <span className="classTooltip">Project Description</span>
+                <span className="classTooltip">Description</span>
               </a>
             </span>
           </div> 
@@ -263,15 +263,15 @@ export default function Projects() {
               </a> 
             </span>
             <span className="classSpan">
-              <a className="toolTip" href="https://github.com/amjadiftikhar/portfolio2020">
+              <a className="toolTip" href="https://amjadiftikhar.netlify.app/">
                 <img className="classIcon toolTip" src={externalLinkIcon} alt=""/>
-                <span className="classTooltip">Click to preview</span> 
+                <span className="classTooltip">Preview</span> 
               </a>
             </span>
             <span className="classSpan">
               <a className="toolTip" href="">
                 <img className="classIcon toolTip" src={descriptionIcon} alt=""/>
-                <span className="classTooltip">Project Description</span> 
+                <span className="classTooltip">Description</span> 
               </a>
             </span>
           </div>
